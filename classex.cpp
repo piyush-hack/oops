@@ -18,6 +18,7 @@ public:
 };
 
 int main(){
-
+    student *s = new student();
+    cout << s->add(2, 3) << endl;
    return 0;
 }
